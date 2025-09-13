@@ -86,7 +86,7 @@ Camera intrinsics and extrinsics in YAML format compatible with common VO/SLAM f
 
 ## 📊 Benchmark Results
 
-Performance comparison of state-of-the-art methods on ZJH-VO:
+A comparison of representative monocular visual odometry (MVO) methods on the ZJH-VO dataset:
 
 | Method | RTE (%) | RRE (°/100m) | APE (m) |
 |--------|---------|--------------|---------|
