@@ -6,7 +6,7 @@ A comprehensive multi-scene and multi-scale benchmark dataset for ground vehicle
 
 The ZJH-VO dataset is designed to address the lack of publicly available benchmarks with diversity in scale and scene characteristics for ground vehicle navigation. It provides challenging scenarios across multiple floors of an office complex, from underground parking to outdoor plazas.
 
-![Dataset Overview](images/dataset_overview.png)
+![Dataset Overview](Images/Dataset_Overview.png)
 *Data collection vehicle and representative trajectories across four floors (Floor 9, 4, 1, and 0)*
 
 ## 🚗 Key Features
@@ -31,7 +31,7 @@ The ZJH-VO dataset is designed to address the lack of publicly available benchma
 
 ### Motion Statistics
 
-![Motion Statistics](images/motion_statistics.png)
+![Motion Statistics](Images/Motion_Statistics.png)
 *Inter-frame motion distributions and trajectory statistics across environments*
 
 - **Inter-frame distances**: 0.00 - 0.31m
