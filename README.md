@@ -38,19 +38,12 @@ The ZJH-VO dataset is designed to address the lack of publicly available benchma
 - **Inter-frame rotation angles**: 0.00° - 17.70°
 - **Motion velocities**: 0.00 - 0.59 m/s
 
-## 🔧 Data Collection Setup
-
-### Hardware Configuration
+## 🔧 Hardware Configuration
 - **Platform**: Four-wheeled mobile robot without suspension
 - **Cameras**: 4-camera system with hardware sync
   - Front stereo pair
-  - Front-left and front-right cameras (~30° overlap)
+  - Front-left and front-right cameras
 - **Ground Truth**: 2D LiDAR for pose generation
-- **Sampling Rate**: 8-frame intervals
-
-### Data Split
-- **Training**: 8 trajectories (2 from each floor)
-- **Testing**: 4 trajectories (1 from each floor)
 
 ## 📥 Download
 
@@ -118,10 +111,10 @@ If you use this dataset in your research, please cite:
 @article{wei2025bevodom2,
   title={BEV-ODOM2: Enhanced BEV-based Monocular Visual Odometry with PV-BEV Fusion and Dense Flow Supervision for Ground Robots},
   author={Wei, Yufei and Lu, Wangtao and Hu, Chenxiao and Lu, Sha and Han, Fuzhang and Xiong, Rong and Wang, Yue},
-  journal={Journal of LaTeX Class Files},
+  journal={xxx},
   volume={xxx},
   number={xxx},
-  pages={1--13},
+  pages={xxx},
   year={2025}
 }
 ```
