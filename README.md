@@ -7,7 +7,7 @@ A comprehensive multi-scene and multi-scale benchmark dataset for ground vehicle
 The ZJH-VO dataset is designed to address the lack of publicly available benchmarks with diversity in scale and scene characteristics for ground vehicle navigation. It provides challenging scenarios across multiple floors of an office complex.
 
 ![Dataset Overview](Images/Dataset_Overview.png)
-*Data collection vehicle and representative trajectories across four floors (Floor 9, 4, 1, and 0)*
+*ZJH-VO Multi-Scale Dataset Overview. Left: Data collection vehicle and camera coordinate system setup with PV-BEV transformation. Center: Representative trajectory paths across four floors (Floor 9, 4, 1, and 0). Right: Sample image pairs from each environment showing diverse scene characteristics.*
 
 ## 🚗 Key Features
 
@@ -32,7 +32,7 @@ The ZJH-VO dataset is designed to address the lack of publicly available benchma
 ### Motion Statistics
 
 ![Motion Statistics](Images/Motion_Statistics.png)
-*Inter-frame motion distributions and trajectory statistics across environments*
+*ZJH-VO Multi-Scale dataset motion statistics across four environment types. Left: Inter-frame motion distance and rotation angle distributions with statistical measures. Right: Mean motion velocity and total trajectory distance for each environment sequence.*
 
 - **Inter-frame distances**: 0.00 - 0.31m
 - **Inter-frame rotation angles**: 0.00° - 17.70°
@@ -42,7 +42,7 @@ The ZJH-VO dataset is designed to address the lack of publicly available benchma
 - **Platform**: Four-wheeled mobile robot without suspension
 - **Cameras**: 4-camera system with hardware sync
   - Front stereo pair
-  - Front-left and front-right cameras
+  - left and right cameras
 - **Ground Truth**: 2D LiDAR for pose generation
 
 ## 📥 Download
@@ -97,7 +97,9 @@ Performance comparison of state-of-the-art methods on ZJH-VO:
 | ORB-SLAM3 | 8.94* | 14.21* | 4.28* |
 | DeepVO | 51.95 | 109.11 | 20.06 |
 | TartanVO | 10.31 | 17.40 | 5.79 |
+| DF-VO | 60.00 | 105.66 | 36.73 |  
 | DROID-SLAM | 15.75 | 22.11 | 11.81 |
+| DPVO | 14.74 | 19.65 | 10.90 |
 | BEV-ODOM | 7.28 | 7.98 | 3.95 |
 | **BEV-ODOM2** | **3.57** | **4.69** | **2.11** |
 
@@ -130,20 +132,5 @@ We welcome contributions to improve the dataset! Please feel free to:
 ## 📧 Contact
 
 For questions or issues regarding the dataset, please contact:
-- **Yufei Wei**: [email]
+- **Yufei Wei**: 12232028@zju.edu.cn
 - **Yue Wang** (Corresponding author): wangyue@iipc.zju.edu.cn
-
-## 📄 License
-
-This dataset is released under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license for academic use. For commercial use, please contact the authors.
-
-## 🙏 Acknowledgments
-
-This work was supported by:
-- National Nature Science Foundation of China (Grant 62373322)
-- Zhejiang Provincial Natural Science Foundation (Grant LD24F030001)
-- Laboratory of Industrial Control and Technology, Zhejiang University
-
----
-
-**Note**: The dataset will be continuously updated with additional sequences and improved annotations. Please check back for updates!
