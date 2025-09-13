@@ -51,7 +51,7 @@ The dataset is available in the following formats:
 
 | Component | Size | Link |
 |-----------|------|------|
-| Full Dataset | ~XXX GB | [Download from BaiduPan]([https://pan.baidu.com/s/1chw2FQsG-sPkaMWTrGCH8A?pwd=zjhd](https://pan.baidu.com/s/1chw2FQsG-sPkaMWTrGCH8A?pwd=zjhd)) |
+| Full Dataset | ~73 GB | [Download from BaiduPan](https://pan.baidu.com/s/1chw2FQsG-sPkaMWTrGCH8A?pwd=zjhd) |
 
 ## 📂 File Format
 
