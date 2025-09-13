@@ -76,13 +76,19 @@ ZJH-VO/
 ```
 
 ### Pose Format
+
 Each line in `poses.txt` contains:
 ```
 timestamp x y z qx qy qz qw
 ```
 
 ### Calibration Format
-Camera intrinsics and extrinsics are provided in a single `calibration.txt` file.
+
+A single `calibration.txt` file is provided containing:
+
+- **Image resolution**: 1152 × 720 pixels
+- **Camera intrinsics**: 3×3 camera matrix and distortion coefficients for all 4 cameras (front_left, front_right, right, left)
+- **Camera extrinsics**: Transformation matrices (quaternion and 4×4 matrix) from each camera to the ego vehicle coordinate frame
 
 ## 📊 Benchmark Results
 
