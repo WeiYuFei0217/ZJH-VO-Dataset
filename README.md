@@ -52,31 +52,27 @@ The dataset is available in the following formats:
 | Component | Size | Link |
 |-----------|------|------|
 | Full Dataset | ~XXX GB | [Download from BaiduPan](https://pan.baidu.com/xxx) |
-| Images Only | ~XXX GB | [Download from BaiduPan](https://pan.baidu.com/xxx) |
-| Ground Truth | ~XXX MB | [Download from BaiduPan](https://pan.baidu.com/xxx) |
-| Calibration Files | ~XXX MB | [Download from BaiduPan](https://pan.baidu.com/xxx) |
-
-Alternative download links:
-- [Google Drive Mirror](https://drive.google.com/xxx)
-- [OneDrive Mirror](https://onedrive.live.com/xxx)
 
 ## 📂 File Format
 
 ```
 ZJH-VO/
 ├── Floor_00/
-│   ├── trajectory_01/
-│   │   ├── images/
-│   │   │   ├── 000000.png
+│   ├── traj_1/
+│   │   ├── cam_front_left/
+│   │   │   ├── 1729928902.817029.jpg
+│   │   │   ├── 1729928902.884322.jpg
 │   │   │   └── ...
-│   │   ├── poses.txt
-│   │   └── calibration.yaml
-│   ├── trajectory_02/
-│   └── trajectory_03/
+│   │   ├── cam_front_right/
+│   │   ├── cam_left/
+│   │   ├── cam_right/
+│   │   └── tum_gt.txt
+│   ├── traj_2/
+│   └── traj_3/
 ├── Floor_01/
 ├── Floor_04/
 ├── Floor_09/
-└── README.md
+└── calibration.yaml
 ```
 
 ### Pose Format
