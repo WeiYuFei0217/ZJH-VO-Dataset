@@ -82,7 +82,7 @@ timestamp x y z qx qy qz qw
 ```
 
 ### Calibration Format
-Camera intrinsics and extrinsics in YAML format compatible with common VO/SLAM frameworks.
+Camera intrinsics and extrinsics are provided in a single `calibration.txt` file.
 
 ## 📊 Benchmark Results
 
